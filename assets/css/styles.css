@@ -1,0 +1,135 @@
+body{
+    background-color:white;
+}
+header{
+    
+    width:auto;
+    margin:auto;
+    background-color:black;
+    color:white;
+    line-height:75px ;
+    
+}
+.details{
+    float:left;
+    width:40%;
+    padding-top: 10px;
+   
+}
+.det{
+    float:left;
+    width:50%;
+    padding-top: 20px;
+}
+.video{
+    float:right;
+    width:45%;
+    
+    padding-top: 20px;
+}
+
+.container{
+    float:right;
+    width:50%;
+    padding-right: 20px;
+    text-align: center;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  button{
+      float:right;
+      size: 20px;
+  }
+  .col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 55%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+  section{
+    
+    margin:auto;
+}
+  
+  button{
+    outline:none;
+    background-color:black;
+    color:white;
+    position:right;
+  }
+  p{
+      text-align: center;
+     
+  }
+  h1{
+      text-align: center;
+  }
+  h2{
+    text-align: center;
+    
+}
+footer{
+    width: 100%;
+    background-color:black;
+    position:relative;
+    margin-top:780px;
+    text-align:center;
+    color:white;
+    line-height:50px ;
+}
+#reg fieldset{
+    width:70%;
+    margin:auto;
+    background-color:#eee;
+    padding:20px;
+    box-shadow:0 0 4px whitesmoke;
+}
+#reg p{
+    text-align:center;
+    margin-bottom:10px;
+}
+#reg input{
+    margin-bottom:10px;
+    padding:5px;
+    border-radius:5px;
+}
+#reg option{
+    
+    height:40px;
+}
+
+#reg input{
+    height:20px;
+}
+
+#reg button{
+    width:auto;
+    height:40px;
+}
+.video{
+    padding-top: 20px;
+}
+
+input[type=text],select{
+    border: 1px solid;
+    line-height: 10px;
+}
+input select{
+    padding:none;
+    margin-left:none;
+}
